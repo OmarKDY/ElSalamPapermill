@@ -121,10 +121,10 @@ font-family: 'Rajdhani', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #FF5E15;
-  --ltn__secondary-color-2: #cb3421;
+  --ltn__secondary-color: green;
+  --ltn__secondary-color-2: darkgreen
   /* Darken */
-  --ltn__secondary-color-3: #fb412a;
+  --ltn__secondary-color-3: green;
   /* Lighten */
   --ltn__heading-color: #0B1E33;
   --ltn__paragraph-color: #152E3A;
@@ -4139,10 +4139,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     display: inline-block;
     padding: 0 20px;
     line-height: 40px;
-    background-color: var(--ltn__secondary-color);
+    background-color: green;
     color: var(--white); }
     .header-top-btn a:hover {
-      background-color: var(--ltn__secondary-color-2); }
+      background-color: darkgreen }
 
 /* ----------------------------------------------
     Header Middle Area
@@ -8429,7 +8429,15 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .bg-image {
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
+.bg-image-header {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 200px;
+  background-image: url(../images/bg/14.jpg);
+}
 
 .bg-image-top {
   background-size: auto;

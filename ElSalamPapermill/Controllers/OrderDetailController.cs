@@ -35,7 +35,7 @@ namespace ElSalamPapermill.Controllers
             if (orderConfirmed == 1)
             {
                 // Send email
-                await _emailSender.SendEmailAsync("omarkdyou@gmail.com", orderdetail.Email, $"Order Request From {orderdetail.CompanyName} - Order Id {orderdetail.OrderGuid}", orderdetail);
+                await _emailSender.SendEmailAsync("omarkdyou@gmail.com", orderdetail.Email, $"Order Request From {orderdetail.CompanyName} - Order Id {orderdetail.OrderGuid}", orderdetail, true);
             }
 
             return Ok("Order created successfully");

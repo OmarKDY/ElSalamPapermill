@@ -16,6 +16,7 @@ namespace ElSalamPapermill.Data
         public virtual DbSet<OrderDetail> OrderDetail { get; set; }
         public virtual DbSet<Jobs> Jobs { get; set; }
         public virtual DbSet<Suppliers> Suppliers { get; set; }
+        public virtual DbSet<ProductInquiry> ProductInquiry { get; set; }
 
     }
 }
